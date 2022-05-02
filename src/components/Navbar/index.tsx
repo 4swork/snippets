@@ -12,9 +12,9 @@ const Navbar = () => {
         <Link className="navbar-brand" to="#">
           Idea by Srikar Marupaka &copy; 2022
         </Link>
-        <Link className="navbar-brand" to="#">
+        <a className="navbar-brand" href="https://github.com/4swork/snippets" target='_blank' rel="noreferrer">
           Contribute
-        </Link>
+        </a>
       </div>
     </nav>
   );
