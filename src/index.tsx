@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Error404 from "./components/404";
 import About from "./components/About";
+import Navbar from "./components/Navbar";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -18,10 +19,8 @@ root.render(
         <Route path="/about" element={<About />} />
         {/* <Route path="invoices" element={<Invoices />} /> */}
 
-
         {/* This route should be kept last */}
-        <Route path="/" element={<App />}>
-        </Route>
+        <Route path="/" element={<App />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
