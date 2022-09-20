@@ -1,6 +1,4 @@
 import React from "react";
-import { SearchIcon, ArrowLeft } from "../Icons";
-import Logo from "../Logo";
 
 const About = () => {
   return (
