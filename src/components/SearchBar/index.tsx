@@ -7,10 +7,10 @@ const SearchBar = () => {
   const [searchedFiles, setSearchedFiles] = useState([]);
   
   let directory_name = "Topics/javascript/snippets/";
-  let filenames = fs.readdirSync(directory_name);
-  filenames.forEach((file: any) => {
-    console.log("File:", file);
-  });
+  // let filenames = fs.readdirSync(directory_name);
+  // filenames.forEach((file: any) => {
+  //   console.log("File:", file);
+  // });
 
   const searchFiles = (e: any) => {
     setSearchString(e.target.value);
