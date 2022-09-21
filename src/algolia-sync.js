@@ -31,8 +31,8 @@ paths.forEach(path => {
             const reference = info.reference;
             questions.push({ question, url, objectID, reference });
         }
-        console.log(questions)
-        // syncQuestions(questions);
+        // console.log(questions)
+        syncQuestions(questions);
     });
 });
 
